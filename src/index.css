@@ -93,7 +93,6 @@ video {
   font-size: 14px;
   line-height: 120%;
   letter-spacing: -0.025em;
-  font-variation-settings: 'opsz' auto;
   color: #111111;
 }
 /* HTML5 display-role reset for older browsers */

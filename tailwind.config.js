@@ -2,7 +2,7 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
-      neutral: {
+      text: {
         0: '#111111',
         10: '#353436',
         20: '#605E61',
@@ -46,6 +46,16 @@ module.exports = {
       },
     },
     extend: {
+      borderRadius: {
+        textField: '10px',
+      },
+      boxShadow: {
+        'input-focus': '0 0 10px 4px rgba(159, 122, 250, 0.3)',
+        button: '0px 1px 1px 0px rgba(0, 0, 0, 0.05)',
+        card: '0px 1px 5px 0px rgba(0, 0, 0, 0.1)',
+        dropdown: '0px 2px 5px 0px rgba(0, 0, 0, 0.2)',
+        modal: '0px 4px 5px 0px rgba(0, 0, 0, 0.15)',
+      },
       fontFamily: {
         pretendard: ['Pretendard Variable', 'sans-serif'],
       },
@@ -87,6 +97,10 @@ module.exports = {
         ],
         'subtitle-h4': [
           '20px',
+          { lineHeight: '120%', letterSpacing: '-0.025em', fontWeight: '600' },
+        ],
+        'subtitle-h5': [
+          '16px',
           { lineHeight: '120%', letterSpacing: '-0.025em', fontWeight: '600' },
         ],
 
