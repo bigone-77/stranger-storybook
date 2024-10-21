@@ -6,12 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "prepare": "husky install",
-    "postinstall": "husky install"
+    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --max-warnings 0",
+    "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
+    "prepare": "husky"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
