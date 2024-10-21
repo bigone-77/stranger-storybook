@@ -20,10 +20,10 @@ export default function DefaultTextField({
   htmlFor,
   labelText,
   id,
-  onChange,
-  placeholder,
   type = 'text',
   value = '',
+  onChange,
+  placeholder,
   isError = false,
   errorMessage = '다시 확인해주세요',
 }: IDefaultTextFieldProps) {

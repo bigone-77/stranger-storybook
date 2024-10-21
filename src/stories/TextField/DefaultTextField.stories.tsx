@@ -5,7 +5,7 @@ import { useState } from '@storybook/preview-api';
 import DefaultTextField from './DefaultTextField';
 
 const meta = {
-  title: 'TextField/DefaultTextField',
+  title: 'Input/DefaultTextField',
   component: DefaultTextField,
   parameters: {
     layout: 'centered',
