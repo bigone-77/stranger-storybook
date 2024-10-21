@@ -11,7 +11,8 @@
     "build-storybook": "storybook build",
     "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}' --max-warnings 0",
     "prettier": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "prepare": "husky"
+    "prepare": "husky",
+    "chromatic": "npx chromatic --project-token=chpt_17af2308cc97f66"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -40,6 +41,7 @@
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "10.4.20",
+    "chromatic": "11.12.6",
     "eslint": "^9.11.1",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.2.1",
